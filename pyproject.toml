@@ -13,7 +13,7 @@ packages = [{ include = "beaker" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-pyteal = "^0.26.1"
+pyteal = {git = "https://github.com/MythFinance/pyteal", rev = "68d9187987298242c1bce5bb63507bde8fb3c81a"}
 py-algorand-sdk = ">=2.5.0"
 algokit-utils = "^2.2.1"
 
